@@ -21,7 +21,11 @@ class CalcTest {
 		int result=calc.add(a,b);
 		assertEquals(result,2);
 	}
-
-
-
+	@Test
+	void testSub() {
+		int a=1;
+		int b=1;
+		int result=calc.sub(a,b);
+		assertEquals(result,0);
+	}
 }
